@@ -23,16 +23,41 @@ div.top {
   text-align: start;
   font-size: 45px;
 }
-.text button {
+.text a {
+  display: block;
+  line-height: 0%;
+  margin: 8% 0 0 25%;
   font-weight: bolder;
   background-color: #551d7a;
-  padding: 10px;
-  height: 60px;
+  padding: 30px;
+  height: 0px;
   width: 160px;
-  align-items: center;
-  margin: 6% 0 0 25%;
   color: #fff;
   border-radius: 26px;
+  animation: bntText 4s ease-in-out; /* Gira por 4 segundos e, em seguida, pausa por 4 segundos */
+  text-align: center; /* Centraliza o texto */
+}
+
+@keyframes bntText {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  33% {
+    transform: rotate(360deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(190deg);
+  }
+}
+.text a:hover {
+  background-color: #29aa56;
+  color: #cccccc;
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 /* card */
@@ -52,24 +77,31 @@ div.top {
   flex-direction: column;
 }
 .cardDivulg {
-  margin: 50px 0 0 320px;
+  margin: 70px 0 0 316px;
 }
-.card img {
+.card img,
+svg {
   height: 80px;
   width: 80px;
 }
-.card svg {
-  height: 80px;
-  width: 80px;
+.card svg,
+img:hover {
+  transform: scale(1.1);
 }
 .card h3 {
   margin: 10% 0 10%;
 }
-.card button {
+.card a {
   border-radius: 6px;
-  width: 120px;
+  width: 170px;
+  text-align: center;
   height: 40px;
   padding: 10px;
   background-color: #29aa56;
   color: #fff;
+  transition: 0.2s;
+}
+.card a:hover {
+  background-color: #551d7a;
+  transform: scaleX(1.1);
 }
