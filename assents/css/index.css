@@ -34,8 +34,11 @@ div.top {
   width: 160px;
   color: #fff;
   border-radius: 26px;
-  animation: bntText 4s ease-in-out; /* Gira por 4 segundos e, em seguida, pausa por 4 segundos */
-  text-align: center; /* Centraliza o texto */
+  animation: bntText 0.8s ease-in-out;
+  text-align: center; 
+  animation-delay: 0.8s ; 
+  transition: 0.3s ease-in-out;
+
 }
 
 @keyframes bntText {
@@ -43,21 +46,16 @@ div.top {
   100% {
     transform: rotate(0deg);
   }
-  33% {
+  100% {
     transform: rotate(360deg);
   }
-  50% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(190deg);
-  }
+
 }
 .text a:hover {
-  background-color: #29aa56;
-  color: #cccccc;
+  background-color: #fff;
+  color: #551d7a;
+  font-weight: 600;
   transform: scale(1.1);
-  transition: 0.3s;
 }
 
 /* card */
@@ -97,11 +95,13 @@ img:hover {
   text-align: center;
   height: 40px;
   padding: 10px;
-  background-color: #29aa56;
-  color: #fff;
-  transition: 0.2s;
+  background-color: #cccccc;
+  color: #551d7a;
+  transition: 0.2s ease-in-out;
 }
 .card a:hover {
   background-color: #551d7a;
+  color: #fff;
+font-weight: 500;
   transform: scaleX(1.1);
 }

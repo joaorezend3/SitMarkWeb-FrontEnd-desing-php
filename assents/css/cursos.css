@@ -1,0 +1,78 @@
+body{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1090%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1091%26quot%3b)'%3e%3c/rect%3e%3cpath d='M1440 0L1246.43 0L1440 123.07z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1246.43 0L1440 123.07L1440 158.57L1050.4 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M1050.4 0L1440 158.57L1440 196.69L731.95 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M731.95 0L1440 196.69L1440 452.74L514.9200000000001 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 560L359.64 560L0 530.38z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 530.38L359.64 560L547.69 560L0 334.26z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 334.26L547.69 560L1061.73 560L0 314.78z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 314.78L1061.73 560L1166.81 560L0 157.27999999999997z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1090'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='139.29%25' x2='84.72%25' y2='-39.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1091'%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='0.09'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='0.27'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='0.51'%3e%3c/stop%3e%3cstop stop-color='rgba(106%2c 14%2c 166%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top {
+  margin-top: 20px;
+  padding: 20px;
+}
+.texTop h1 {
+  text-align: start;
+  font-size: 35px;
+}
+.texTop p {
+  color: rgb(105, 105, 105);
+  font-style: italic;
+  margin: 1% 0 0 10%;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2% 0 0 5%;
+}
+.card {
+  background-color: #551d7a;
+  color: #fff;
+  height: 350px;
+  width: 340px;
+  margin-right: 4%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.61);
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+}
+.card:hover {
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.767);
+  transform: scale(1.1);
+}
+.card h3 {
+}
+.card p {
+  color: rgb(134, 134, 134);
+  font-style: italic;
+  margin: 1% 0 0 10%;
+}
+.precCard {
+  margin: 10% 0 0 0;
+}
+.precCard h3 {
+  color: #29aa56;
+  font-style: italic;
+  font-size: 25px;
+  margin: 1% 0 0 45%;
+}
+.card h5 {
+  margin: 15% 0 10%;
+  font-size: 20px;
+}
+
+.card .textCard .btnCard {
+  text-align: center;
+}
+.card .textCard .btnCard {
+  margin: 30%;
+  background-color: #29aa56;
+  color: #fff;
+  border-radius: 26px;
+  padding: 10px;
+  transition: 0.2s ease-in-out;
+}
+.card .textCard .btnCard:hover {
+  background-color: #fff;
+  color: #551d7a;
+}

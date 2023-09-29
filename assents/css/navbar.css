@@ -13,6 +13,7 @@ nav ul {
 nav ul li {
   list-style: none;
   margin: 5px 5px;
+  transition: 0.1s ease-in-out;
 }
 nav ul li:hover {
   color: #29aa56;
@@ -29,10 +30,9 @@ a.btn-navBar {
   border: none;
   border-radius: 6px;
   color: #fff;
+  transition: 0.2s ease-in-out;
 }
 a.btn-navBar:hover {
-  transition: 0.2s;
-  transform: scale(1.1);
   color: #fff;
   background-color: #29aa56;
 }
