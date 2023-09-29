@@ -1,0 +1,26 @@
+/* #820ad1 roxo */
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+a {
+  color: #fff;
+}
+mark {
+  color: #8522c7;
+  background-color: transparent;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  padding: 35px;
+  background-color: rgb(37, 36, 35);
+  color: white;
+  font-family: "Inclusive Sans", sans-serif;
+}

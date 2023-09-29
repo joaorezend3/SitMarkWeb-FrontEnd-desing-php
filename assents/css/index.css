@@ -1,0 +1,75 @@
+body {
+  /*   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1127%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1128%26quot%3b)'%3e%3c/rect%3e%3cpath d='M1440 0L1246.43 0L1440 123.07z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1246.43 0L1440 123.07L1440 158.57L1050.4 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M1050.4 0L1440 158.57L1440 196.69L731.95 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M731.95 0L1440 196.69L1440 452.74L514.9200000000001 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 560L359.64 560L0 530.38z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 530.38L359.64 560L547.69 560L0 334.26z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 334.26L547.69 560L1061.73 560L0 314.78z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 314.78L1061.73 560L1166.81 560L0 157.27999999999997z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1127'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='139.29%25' x2='84.72%25' y2='-39.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1128'%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='0.45'%3e%3c/stop%3e%3cstop stop-color='rgba(130%2c 10%2c 209%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");*/
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1190%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1191%26quot%3b)'%3e%3c/rect%3e%3cpath d='M1440 0L1246.43 0L1440 123.07z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1246.43 0L1440 123.07L1440 158.57L1050.4 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M1050.4 0L1440 158.57L1440 196.69L731.95 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M731.95 0L1440 196.69L1440 452.74L514.9200000000001 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 560L359.64 560L0 530.38z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 530.38L359.64 560L547.69 560L0 334.26z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 334.26L547.69 560L1061.73 560L0 314.78z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 314.78L1061.73 560L1166.81 560L0 157.27999999999997z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1190'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='139.29%25' x2='84.72%25' y2='-39.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1191'%3e%3cstop stop-color='rgba(23%2c 23%2c 23%2c 1)' offset='0.18'%3e%3c/stop%3e%3cstop stop-color='rgba(23%2c 23%2c 23%2c 1)' offset='0.41'%3e%3c/stop%3e%3cstop stop-color='rgba(106%2c 14%2c 166%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.top {
+  margin-top: 6%;
+  display: flex;
+}
+.text {
+  margin-left: 40px;
+}
+.text p {
+  color: rgb(105, 105, 105);
+  font-style: italic;
+  margin: 0 0 20px;
+}
+.text h2 {
+  text-align: start;
+  font-size: 45px;
+}
+.text button {
+  font-weight: bolder;
+  background-color: #551d7a;
+  padding: 10px;
+  height: 60px;
+  width: 160px;
+  align-items: center;
+  margin: 6% 0 0 25%;
+  color: #fff;
+  border-radius: 26px;
+}
+
+/* card */
+.rightTop {
+  display: flex;
+  margin: 0 0 0 3%;
+}
+.card {
+  position: absolute;
+  background-color: #000;
+  border-radius: 25px;
+  padding: 30px;
+  width: 23%;
+  height: 325px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.cardDivulg {
+  margin: 50px 0 0 320px;
+}
+.card img {
+  height: 80px;
+  width: 80px;
+}
+.card svg {
+  height: 80px;
+  width: 80px;
+}
+.card h3 {
+  margin: 10% 0 10%;
+}
+.card button {
+  border-radius: 6px;
+  width: 120px;
+  height: 40px;
+  padding: 10px;
+  background-color: #29aa56;
+  color: #fff;
+}
