@@ -33,15 +33,14 @@ body{
   margin-right: 4%;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.61);
-  padding: 10px;
+  padding: 15px;
   transition: 0.3s ease-in-out;
 }
 .card:hover {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.767);
   transform: scale(1.1);
 }
-.card h3 {
-}
+
 .card p {
   color: rgb(134, 134, 134);
   font-style: italic;
@@ -54,7 +53,7 @@ body{
   color: #29aa56;
   font-style: italic;
   font-size: 25px;
-  margin: 1% 0 0 45%;
+  margin: 1% 0 0 40%;
 }
 .card h5 {
   margin: 15% 0 10%;
