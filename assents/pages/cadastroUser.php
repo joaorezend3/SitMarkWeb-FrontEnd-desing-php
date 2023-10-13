@@ -32,5 +32,6 @@
 
     </section>
 </body>
+<script src="../JS/animation.js"></script>
 
 </html>

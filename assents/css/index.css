@@ -103,17 +103,3 @@ img:hover {
   font-weight: 500;
   transform: scaleX(1.1);
 }
-/* animation */
-h2 mark {
-  display: inline-block;
-  opacity: 0;
-  transform: translateY(1em);
-  animation: revealText 0.5s forwards;
-}
-
-@keyframes revealText {
-  to {
-      opacity: 1;
-      transform: translateY(0);
-  }
-}
