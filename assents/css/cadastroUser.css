@@ -1,31 +1,21 @@
-body {
-  background-color: #010409;
+body{
+  background-color: black;
 }
-
 section {
   display: flex;
+  align-items: center;
   justify-content: center;
-  margin-top: 3%;
 }
 .card {
-  max-width: 500px;
-  min-height: 450px;
+  margin: 10% 0 0 0;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  max-width: 900px;
-  height: 200px;
-  padding: 35px;
-
-  border: 1px solid #242424;
-  border-radius: 60px;
-  background-color: #262626;
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
-
-  backdrop-filter: blur(15px);
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 300px;
+  background-color: grey;
+  border-radius: 12px;
 }
-
-form{
-    display: flex;
-    flex-direction: column;
+input{
+  width: 188px;
 }

@@ -93,13 +93,27 @@ img:hover {
   text-align: center;
   height: 40px;
   padding: 10px;
-  background-color: #cccccc;
-  color: #551d7a;
+  background-color: #29aa56;
+  color: #fff;
   transition: 0.2s ease-in-out;
 }
 .card a:hover {
-  background-color: #551d7a;
-  color: #fff;
+  background-color: #fff;
+  color: #551d7a;
   font-weight: 500;
   transform: scaleX(1.1);
+}
+/* animation */
+h2 mark {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(1em);
+  animation: revealText 0.5s forwards;
+}
+
+@keyframes revealText {
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
