@@ -61,7 +61,6 @@ require_once '../cfgCadastroLogin/conexao.php';
         </div>
 
     </section>
-    <script src="../JS/alertLoginErro.js"></script>
 </body>
 
 </html>

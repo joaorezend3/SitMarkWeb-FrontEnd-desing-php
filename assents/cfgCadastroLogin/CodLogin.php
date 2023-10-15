@@ -1,5 +1,6 @@
 <?php
-require_once 'conexao.php'; // Arquivo de conexão ao banco de dados
+session_start();
+require_once 'conexao.php'; 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
@@ -21,12 +22,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Login bem-sucedido
             $_SESSION["user_id"] = $row["id"];
             $_SESSION["user_nome"] = $row["nome"];
-            echo "success"; // Resposta de sucesso
+            header("Location: ../pages/pagina_de_boas_vindas.php"); 
         } else {
-            echo "Senha incorreta";
+            echo "Senha incorreta.";
         }
     } else {
-        echo "Usuário não encontrado";
+        echo "Usuário não encontrado.";
     }
     
     $stmt->close();
