@@ -2,7 +2,7 @@ h2, mark {
     display: inline-block;
     opacity: 0;
     transform: translateY(1em);
-    animation: revealText 1s forwards;
+    animation: revealText 2s forwards;
   }
   
   @keyframes revealText {
